@@ -116,6 +116,20 @@ claude mcp add playwright npx @playwright/mcp@latest
 code --add-mcp '{"name":"playwright","command":"npx","args":["@playwright/mcp@latest"]}'
 ```
 
+### GitHub MCP Server
+
+- Claude Code
+
+```sh
+claude mcp add github npx @modelcontextprotocol/server-github
+```
+
+- VS Code
+
+```sh
+code --add-mcp '{"name":"github","command":"npx","args":["-y","@modelcontextprotocol/server-github"]}'
+```
+
 ## LLM Gateway
 
 ### ZetaTechs

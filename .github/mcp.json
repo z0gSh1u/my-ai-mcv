@@ -6,6 +6,13 @@
       "headers": {
         "CONTEXT7_API_KEY": "TODO: Replace with your API key"
       }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer TODO: Replace with your GitHub PAT"
+      }
     }
   }
 }

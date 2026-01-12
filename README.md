@@ -127,7 +127,7 @@ claude mcp add github npx @modelcontextprotocol/server-github
 - VS Code
 
 ```sh
-code --add-mcp '{"name":"github","command":"npx","args":["-y","@modelcontextprotocol/server-github"]}'
+code --add-mcp '{"name":"github","command":"npx","args":["@modelcontextprotocol/server-github"]}'
 ```
 
 ## LLM Gateway

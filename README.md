@@ -121,7 +121,7 @@ code --add-mcp '{"name":"playwright","command":"npx","args":["@playwright/mcp@la
 - Claude Code
 
 ```sh
-claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer YOUR_GITHUB_PAT"}}'
+claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/mcp/","headers":{"Authorization":"Bearer YOUR_GITHUB_PAT"}}'
 ```
 
 - VS Code
